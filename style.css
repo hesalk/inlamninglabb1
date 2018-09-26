@@ -92,8 +92,46 @@ a:active {
 
 		.flex-container {
 		  display: flex;
+			flex-direction: column;
 		  justify-content: center;
 		  align-items: center;
-		  height: 200px;
-			padding: 50px 200px 50px 200px;
+		  height: auto;
+			padding: 50px 250px 50px 250px;
 		  		}
+p{width: 400px;padding: 10px}
+img {width: 300px}
+
+table.greyGridTable {
+  border: 2px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: 1px solid #FFFFFF;
+  padding: 10px 	4px;
+}
+table.greyGridTable tbody td {
+  font-size: 18px;
+}
+table.greyGridTable td:nth-child(even) {
+  background: #EBEBEB;
+}
+table.greyGridTable thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 2px solid #333333;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
