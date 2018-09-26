@@ -5,7 +5,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+/* dl, dt, dd, ol, ul, li, */
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -135,3 +135,5 @@ table.greyGridTable thead th:first-child {
 table.greyGridTable tfoot td {
   font-size: 14px;
 }
+ul {font-size: 25px;}
+li {font-size: 25px;}
